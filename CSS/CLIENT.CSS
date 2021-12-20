@@ -1,0 +1,67 @@
+.section:nth-child(even) {
+     margin-top: 20px;
+     background-color: lightgray;
+     border-radius: 8px;
+     padding: 10px;
+}
+.section h1 {
+     text-align: center;
+}
+
+.container_review {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     flex-direction: row;
+     margin: 10px;
+
+}
+
+textarea {
+     padding: 10px;
+}
+
+.container_review textarea {
+     font-family: var(--font1);
+}
+
+.client_review {
+     background-color: white;
+     padding: 10px;
+     border-radius: 8px;
+}
+
+.client_review {
+     margin: 10px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.Clients
+{
+     padding: 20px;
+     background-color: lightgray;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     border-radius: 8px;
+     align-items: center;
+}
+.Clients img
+{
+     margin: 10px;
+     border-radius: 8px;
+}
+.Clients img:hover
+{
+     box-shadow: 1px 1px 10px 5px gray;
+}
+.Client_Heading
+{
+     margin-top: 20px;
+     margin-bottom: 10px;
+}
+.Clients img:hover
+{
+     cursor: pointer;
+}

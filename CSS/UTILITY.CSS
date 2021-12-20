@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&family=Cookie&family=Dancing+Script&display=swap');
+:root
+{
+     --font1 : 'Baloo Bhaina 2', cursive;;
+     --font2 : 'Dancing Script', cursive;
+}
+.font2
+{
+     font-family: var(--font2);
+}
+.max-width1 {
+     max-width: 80vw;
+}
+
+body {
+     margin: 0px;
+     padding: 0px;
+}
+
+.margin-auto {
+     margin: auto;
+}
+
+.unordered_list {
+     display: flex;
+     align-items: center;
+}
+
+.unordered_list li {
+     list-style-type: none;
+}
+.input_text
+{
+     padding-top: 4px;
+     font-size: 16px;
+     width: 26vw;
+     border: 1px solid;
+     border-radius: 4px;
+     font-family: var(--font1);
+}
+.btn
+{
+     font-size: 16px;
+     padding-top: 4px;
+     width: 10vw;
+     font-family: var(--font1);
+     border: 1px solid;
+     border-radius: 4px;
+     transition: all 0.4s ease-in-out;
+}
+.btn:hover
+{
+     background-color: brown;
+     color: white;
+     border-radius: 4px;
+     cursor: pointer;
+}
+.text_shadow_heading
+{
+     text-align: center;
+     text-shadow: 1px 1px 10px black;
+}
+.font1
+{
+     font-family: var(--font1);
+}
+.mainheading
+{
+     color: lightgrey;
+     text-shadow: 1px 1px 3px black;
+}
+.simpleheading
+{
+     color: lightgray;
+     text-shadow: 1px 1px 1px black;
+     font-family: var(--font2);
+}
+.centre
+{
+     text-align: center;
+}

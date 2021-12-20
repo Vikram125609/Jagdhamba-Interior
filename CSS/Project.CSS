@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&family=Cookie&family=Dancing+Script&display=swap');
+
+:root {
+     --font1: 'Baloo Bhaina 2', cursive;
+     ;
+     --font2: 'Dancing Script', cursive;
+}
+
+.font-1 {
+     font-family: var(--font1);
+}
+
+.font-2 {
+     font-family: var(--font2);
+}
+
+.Project-1 {
+     background: url('https://images.squarespace-cdn.com/content/v1/60b5ca0a82659e2d1e0a0e21/1628582086399-YHCF219W9N0SKJ7N5TYE/living+room+%2813%29.jpg?format=750w') no-repeat center center;
+     width: 55vw;
+     margin: auto;
+     height: 60vh;
+     animation-name: animation1;
+     animation-duration: 20s;
+     animation-iteration-count: infinite;
+     border-radius: 20px;
+     animation-timing-function: linear;
+}
+
+@keyframes animation1 {
+     /* 0% {
+          background: url('https://images.squarespace-cdn.com/content/v1/60b5ca0a82659e2d1e0a0e21/1628582086399-YHCF219W9N0SKJ7N5TYE/living+room+%2813%29.jpg?format=750w') no-repeat center center;
+     } */
+
+     25% {
+          background: url('https://images.squarespace-cdn.com/content/v1/60b5ca0a82659e2d1e0a0e21/1626695064401-VKHXHK6ADD33V0CJY1Z9/7.jpg?format=750w') no-repeat center center;
+     }
+
+     50% {
+          background: url('https://images.squarespace-cdn.com/content/v1/60b5ca0a82659e2d1e0a0e21/1628581624577-NROJFO55GZGXD6D5J51N/living+room+%282%29.jpg?format=750w') no-repeat center center;
+     }
+
+     75% {
+          background: url('https://images.squarespace-cdn.com/content/v1/60b5ca0a82659e2d1e0a0e21/1628581674196-4FF8UDX1MEA3W2E4G0IH/master+bedroom+%28parent%27s%29+2.jpg?format=750w') no-repeat center center;
+     }
+}
+
+.ProjectPage>h1 {
+     text-align: center;
+}
+
+.ProjectPage {
+     background-color: lightgray;
+     border-radius: 20px;
+}
+
+.About-Project h1 {
+     /* border: solid; */
+     text-align: center;
+}
+
+.About-Project p {
+     text-align: justify;
+     width: 90%;
+}
+
+.ProjectPage1 img {
+     height: 500px;
+}
+
+.Project-2 {
+     background: url('https://images.squarespace-cdn.com/content/v1/60b5ca0a82659e2d1e0a0e21/1629788938913-4PHX0QD00Q3A6BPQSH57/1.3.jpg?format=750w') no-repeat center center;
+     width: 55vw;
+     margin: auto;
+     height: 60vh;
+     animation-name: animation;
+     animation-duration: 20s;
+     animation-iteration-count: infinite;
+     border-radius: 20px;
+     animation-timing-function: linear;
+}
+
+/* @keyframes animation {
+     0% {
+          background: url('https://images.squarespace-cdn.com/content/v1/60b5ca0a82659e2d1e0a0e21/1629788938913-4PHX0QD00Q3A6BPQSH57/1.3.jpg?format=750w') no-repeat center center;
+     }
+
+     25% {
+          background: url('https://images.squarespace-cdn.com/content/v1/60b5ca0a82659e2d1e0a0e21/1630393967671-0VIM6WU8UWM2PXCE59CM/10.jpg?format=750w') no-repeat center center;
+     }
+
+     50% {
+          background: url('https://images.squarespace-cdn.com/content/v1/60b5ca0a82659e2d1e0a0e21/1630399121046-HO48H2LXWVHKV69XS02V/11.jpg?format=750w') no-repeat center center;
+     }
+
+     75% {
+          background: url('https://images.squarespace-cdn.com/content/v1/60b5ca0a82659e2d1e0a0e21/1626754776621-MA40D5PAN5ZC614XD8VI/4.jpg?format=750w') no-repeat center center;
+     }
+} */
+
+.Secondfooter {
+     box-shadow: -1px -1px 10px 2px black;
+
+}
+
+.Project-3 {
+     display: flex;
+     padding: 20px;
+     justify-content: space-between;
+     align-items: center;
+     margin-bottom: 20px;
+}
+
+.Project-3 img {
+     width: 90%;
+     border-radius: 8px;
+}
+
+#Prev, #Next {
+     height: 50px;
+     /* font-weight: bolder; */
+}
+
+.SlideButton {
+     font-size: 16px;
+     padding-top: 4px;
+     font-family: var(--font1);
+     border: 1px solid;
+     border-radius: 4px;
+     transition: all 0.4s ease-in-out;
+}
+
+.SlideButton:hover {
+     background-color: brown;
+     color: white;
+     cursor: pointer;
+}
+
+.fadein {
+     animation-name: fadein;
+     animation-duration: 5s;
+}
+
+@keyframes fadein {
+     from {
+          opacity: 0;
+     }
+
+     to {
+          opacity: 1;
+     }
+}
